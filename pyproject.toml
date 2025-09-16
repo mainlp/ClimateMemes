@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "clime"
+version = "0.1.0"
+description = ""
+authors = ["shijiazh <nairoo@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+praw = "^7.7.1"
+pandas = "^2.2.2"
+openpyxl = "^3.1.5"
+pillow = "^10.4.0"
+tk = "^0.1.0"
+flask = "^3.0.3"
+easyocr = "^1.7.1"
+requests = "^2.32.3"
+scikit-learn = "^1.5.2"
+nltk = "^3.9.1"
+seaborn = "^0.13.2"
+holoviews = "^1.20.0"
+bokeh = "^3.6.2"
+networkx = "^3.4.2"
+selenium = "^4.27.1"
+mpl-chord-diagram = "^0.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
